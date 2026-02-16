@@ -1,0 +1,20 @@
+{
+  "name": "file-link-bot",
+  "version": "1.0.0",
+  "description": "Telegram File to Link Bot by Zeus",
+  "main": "file-link-bot.js",
+  "scripts": {
+    "start": "node file-link-bot.js"
+  },
+  "keywords": ["telegram", "bot", "file", "link"],
+  "author": "Zeus",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "axios": "^1.6.0",
+    "express": "^4.18.0"
+  }
+}
